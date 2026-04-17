@@ -3,7 +3,7 @@
 
 import type { ChromeMessage, DownloadRecord } from '../shared/types';
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'http://192.168.1.22:3001';
 
 // Listen for messages from content script
 chrome.runtime.onMessage.addListener((message: ChromeMessage, sender, sendResponse) => {

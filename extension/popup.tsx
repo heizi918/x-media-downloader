@@ -10,7 +10,7 @@ function Popup() {
 
   async function checkBackendStatus() {
     try {
-      const res = await fetch('http://localhost:3001/api/stats');
+      const res = await fetch('http://192.168.1.22:3001/api/stats');
       if (res.ok) {
         setBackendStatus('online');
       } else {
