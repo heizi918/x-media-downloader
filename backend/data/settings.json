@@ -1,0 +1,1 @@
+{ "downloadPath": "Downloads", "maxConcurrent": 3, "backendUrl": "http://localhost:3001" }
